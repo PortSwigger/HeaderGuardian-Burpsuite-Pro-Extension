@@ -1,0 +1,17 @@
+<p>Header Guardian is a Burp Suite extension designed to enhance the security of web applications by identifying missing, misconfigured, and unnecessary HTTP security headers. Properly configured security headers are critical in protecting against vulnerabilities like cross-site scripting (XSS), clickjacking, and information leakage.</p>
+
+<p>Features</p>
+
+<ul>
+	<li>Missing Headers Detection: Identifies critical security headers that are missing from HTTP responses.</li>
+	<li>Misconfigured Headers Detection: Reports headers that are present but not properly configured according to OWASP best practices.</li>
+	<li>Correct Headers Reporting: Lists headers that are properly configured.</li>
+	<li>Unnecessary Headers Detection: Detects headers that should be removed, such as Server and X-Powered-By.</li>
+</ul>
+
+<p>How to use</p>
+
+<ol>
+	<li>Once the extension is installed, it will automatically scan HTTP responses during passive scans.</li>
+        <li>Results can be found in the Issues tab.</li>
+</ol>

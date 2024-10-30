@@ -1,0 +1,13 @@
+Uuid: 096df707a309468488bc9f7d3340bdba
+ExtensionType: 2
+Name: Header Guardian
+RepoName: header-guardian
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: True
+Author: OlderMutt
+ShortDescription: Identify missing, misconfigured, and unnecessary HTTP security headers
+EntryPoint: HeaderGuardianPassive.py
+BuildCommand: 
+SupportedProducts: Pro
